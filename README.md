@@ -12,7 +12,7 @@ This package allows you to draw dotted lines with Flutter. You can draw a beauti
 dependencies:
   flutter:
     sdk: flutter
-  flutter_dotted: ^0.0.4
+  flutter_dotted: ^0.0.2
 ```
 
 ### How to use

@@ -10,7 +10,7 @@ class FlutterDotted extends StatelessWidget {
   final double gap;
 
   const FlutterDotted(
-      {Key key,
+      {Key? key,
       this.color = Colors.yellow,
       this.strokeWidth = 1.0,
       this.gap = 3.0})
@@ -77,9 +77,9 @@ class DashRectPainter extends CustomPainter {
   }
 
   Path getDashedPath(
-      {@required math.Point<double> a,
-      @required math.Point<double> b,
-      @required gap}) {
+      {required math.Point<double> a,
+      required math.Point<double> b,
+      required gap}) {
     Size size = Size(b.x - a.x, b.y - a.y);
     Path path = Path();
     path.moveTo(a.x, a.y);
