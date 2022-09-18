@@ -8,11 +8,19 @@ This package allows you to draw dotted lines with Flutter. You can draw a beauti
 
 ![](https://i.ibb.co/kmYrfcM/screenshot.png)
 
+## Usage
+
+[Example](https://github.com/arsarsars1/flutter_dotted/tree/master/example)
+
+To use this package :
+
+- add the dependency to your [pubspec.yaml](https://github.com/arsarsars1/flutter_dotted/tree/master/example/pubspec.yaml) file.
+
 ```yaml
 dependencies:
   flutter:
     sdk: flutter
-  flutter_dotted: ^0.0.2
+  flutter_dotted: ^0.0.3
 ```
 
 ### How to use

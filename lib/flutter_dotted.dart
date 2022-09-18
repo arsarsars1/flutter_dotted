@@ -11,7 +11,7 @@ class FlutterDotted extends StatelessWidget {
 
   const FlutterDotted(
       {Key? key,
-      this.color = Colors.yellow,
+      this.color = Colors.black,
       this.strokeWidth = 1.0,
       this.gap = 3.0})
       : super(key: key);
@@ -21,8 +21,11 @@ class FlutterDotted extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.all(strokeWidth / 2),
       child: CustomPaint(
-        painter:
-            DashRectPainter(color: color, strokeWidth: strokeWidth, gap: gap),
+        painter: DashRectPainter(
+          color: color,
+          strokeWidth: strokeWidth,
+          gap: gap,
+        ),
       ),
     );
   }
