@@ -8,12 +8,14 @@ class FlutterDotted extends StatelessWidget {
   final Color color;
   final double strokeWidth;
   final double gap;
+  final Widget? child;
 
   const FlutterDotted(
       {Key? key,
       this.color = Colors.black,
       this.strokeWidth = 1.0,
-      this.gap = 3.0})
+      this.gap = 3.0,
+      this.child})
       : super(key: key);
 
   @override
@@ -26,6 +28,7 @@ class FlutterDotted extends StatelessWidget {
           strokeWidth: strokeWidth,
           gap: gap,
         ),
+        child: child,
       ),
     );
   }

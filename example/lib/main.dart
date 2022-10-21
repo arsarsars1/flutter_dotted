@@ -48,7 +48,9 @@ class _MyHomePageState extends State<MyHomePage> {
               SizedBox(
                 height: 300,
                 width: 100,
-                child: FlutterDotted(),
+                child: FlutterDotted(
+                  child: Center(child: Text("Child")),
+                ),
               ),
               SizedBox(
                 height: 80,

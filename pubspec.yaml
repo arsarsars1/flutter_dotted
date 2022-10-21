@@ -1,6 +1,6 @@
 name: flutter_dotted
 description: This package allows you to draw dotted lines with Flutter. You can draw a beautiful dotted line around the container.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/arsarsars1/flutter_dotted.git
 
 environment:

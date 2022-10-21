@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * Flutter example added
+
+## 0.0.4
+
+* Child added which user can use on base of the requirement

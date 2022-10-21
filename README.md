@@ -20,7 +20,7 @@ To use this package :
 dependencies:
   flutter:
     sdk: flutter
-  flutter_dotted: ^0.0.3
+  flutter_dotted: ^0.0.4
 ```
 
 ### How to use
@@ -29,7 +29,8 @@ dependencies:
  FlutterDotted(
     gap: 8,
     strokeWidth: 8.0,
-    color: Colors.white
+    color: Colors.white,
+    child: Text("hello") // Child you can refactor base on your requirement
   )
 ```
 
