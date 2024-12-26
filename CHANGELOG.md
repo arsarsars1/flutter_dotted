@@ -13,3 +13,7 @@
 ## 0.0.4
 
 * Child added which user can use on base of the requirement
+
+## 0.0.5
+
+* Upgrade to latest flutter version

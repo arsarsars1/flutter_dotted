@@ -37,11 +37,11 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(
+      body: const Center(
         child: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const <Widget>[
+            children: <Widget>[
               SizedBox(
                 height: 10,
               ),
@@ -49,6 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 300,
                 width: 100,
                 child: FlutterDotted(
+                  gap: 12,
                   child: Center(child: Text("Child")),
                 ),
               ),
@@ -58,15 +59,20 @@ class _MyHomePageState extends State<MyHomePage> {
               SizedBox(
                 height: 40,
                 width: 40,
-                child: FlutterDotted(),
+                child: FlutterDotted(
+                  gap: 6,
+                ),
               ),
               SizedBox(
                 height: 80,
               ),
               SizedBox(
-                height: 40,
+                height: 80,
                 width: 200,
-                child: FlutterDotted(),
+                child: FlutterDotted(
+                  strokeWidth: 3,
+                  gap: 9,
+                ),
               ),
               SizedBox(
                 height: 80,
